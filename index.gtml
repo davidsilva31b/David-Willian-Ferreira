@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David Willian - Técnico de Informática especializado em manutenção, redes e suporte técnico.">
+    <title>David Willian | Técnico de Informática</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0a0a'/%3E%3Ctext x='50' y='68' font-size='55' font-family='Arial' font-weight='bold' fill='%23a8e6a3' text-anchor='middle'%3EDW%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo-link" aria-label="Início">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#a8e6a3"/>
+                            <stop offset="100%" stop-color="#ff4d4d"/>
+                        </linearGradient>
+                    </defs>
+                    <rect x="2" y="2" width="96" height="96" rx="22" fill="#0a0a0a" stroke="url(#logoGrad)" stroke-width="3"/>
+                    <text x="50" y="52" font-size="38" font-family="Arial, sans-serif" font-weight="900" fill="#a8e6a3" text-anchor="middle">DW</text>
+                    <line x1="20" y1="68" x2="80" y2="68" stroke="#ff4d4d" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="50" cy="82" r="3" fill="#a8e6a3"/>
+                </svg>
+                <span class="logo-text">David Willian</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="carreira.html">Carreira</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="badge">💻 Técnico de Informática</span>
+                <h1>Olá, eu sou <span class="highlight-green">David</span> <span class="highlight-red">Willian</span></h1>
+                <p>Soluções em manutenção de computadores, redes, suporte técnico e infraestrutura de TI. Rápido, confiável e profissional.</p>
+                <div class="hero-buttons">
+                    <a href="servicos.html" class="btn btn-primary">Ver Serviços</a>
+                    <a href="contato.html" class="btn btn-outline">Fale Comigo</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><strong>+200</strong><span>Clientes</span></div>
+                    <div class="stat"><strong>5★</strong><span>Avaliação</span></div>
+                    <div class="stat"><strong>+8</strong><span>Anos Exp.</span></div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-bar">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre class="code-body"><code><span class="c-green">const</span> <span class="c-red">tecnico</span> = {
+  nome: <span class="c-green">"David Willian"</span>,
+  area: <span class="c-green">"TI / Hardware"</span>,
+  skills: [<span class="c-green">"Redes"</span>, <span class="c-green">"Suporte"</span>],
+  disponivel: <span class="c-red">true</span>
+};</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre <span class="highlight-green">Mim</span></h2>
+            <p class="section-subtitle">Conheça um pouco do meu trabalho e paixão pela tecnologia</p>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🖥️</div>
+                    <h3>Manutenção</h3>
+                    <p>Reparo e otimização de computadores, notebooks e periféricos com garantia de qualidade.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌐</div>
+                    <h3>Redes</h3>
+                    <p>Configuração de redes, roteadores, switches e cabeamento estruturado.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Segurança</h3>
+                    <p>Backup, antivírus e proteção de dados para residências e empresas.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Suporte</h3>
+                    <p>Atendimento técnico remoto e presencial com agilidade e profissionalismo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CARTÃO DE VISITA DIGITAL ===== -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Meu <span class="highlight-red">Cartão</span> Digital</h2>
+            <p class="section-subtitle">Compartilhe ou salve meus contatos</p>
+
+            <div class="business-card-wrapper">
+                <div class="business-card" id="businessCard">
+                    <div class="bc-front">
+                        <div class="bc-logo">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="96" height="96" rx="22" fill="#0a0a0a" stroke="#a8e6a3" stroke-width="3"/>
+                                <text x="50" y="52" font-size="38" font-family="Arial" font-weight="900" fill="#a8e6a3" text-anchor="middle">DW</text>
+                                <line x1="20" y1="68" x2="80" y2="68" stroke="#ff4d4d" stroke-width="2"/>
+                                <circle cx="50" cy="82" r="3" fill="#a8e6a3"/>
+                            </svg>
+                        </div>
+                        <h3>David Willian</h3>
+                        <p class="bc-role">Técnico de Informática</p>
+                        <span class="bc-line"></span>
+                        <p class="bc-contact">📞 (11) 99999-9999</p>
+                        <p class="bc-contact">✉️ david@ti.com</p>
+                        <p class="bc-contact">📍 São Paulo - SP</p>
+                    </div>
+                </div>
+
+                <div class="bc-actions">
+                    <button class="btn btn-primary" id="downloadCard">⬇ Baixar Cartão</button>
+                    <button class="btn btn-outline" id="shareCard">📤 Compartilhar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+        <div class="container">
+            <h2>Precisa de um técnico de confiança?</h2>
+            <p>Entre em contato agora mesmo e resolva seus problemas de TI!</p>
+            <a href="contato.html" class="btn btn-primary">Solicitar Orçamento</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>David Willian</h4>
+                <p>Técnico de Informática especializado em soluções completas para seu computador e rede.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="carreira.html">Carreira</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p>📞 (11) 99999-9999</p>
+                <p>✉️ david@ti.com</p>
+                <p>📍 São Paulo - SP</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 David Willian. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David Willian - Técnico de Informática especializado em manutenção, redes e suporte técnico.">
+    <title>David Willian | Técnico de Informática</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0a0a'/%3E%3Ctext x='50' y='68' font-size='55' font-family='Arial' font-weight='bold' fill='%23a8e6a3' text-anchor='middle'%3EDW%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo-link" aria-label="Início">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#a8e6a3"/>
+                            <stop offset="100%" stop-color="#ff4d4d"/>
+                        </linearGradient>
+                    </defs>
+                    <rect x="2" y="2" width="96" height="96" rx="22" fill="#0a0a0a" stroke="url(#logoGrad)" stroke-width="3"/>
+                    <text x="50" y="52" font-size="38" font-family="Arial, sans-serif" font-weight="900" fill="#a8e6a3" text-anchor="middle">DW</text>
+                    <line x1="20" y1="68" x2="80" y2="68" stroke="#ff4d4d" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="50" cy="82" r="3" fill="#a8e6a3"/>
+                </svg>
+                <span class="logo-text">David Willian</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="carreira.html">Carreira</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="badge">💻 Técnico de Informática</span>
+                <h1>Olá, eu sou <span class="highlight-green">David</span> <span class="highlight-red">Willian</span></h1>
+                <p>Soluções em manutenção de computadores, redes, suporte técnico e infraestrutura de TI. Rápido, confiável e profissional.</p>
+                <div class="hero-buttons">
+                    <a href="servicos.html" class="btn btn-primary">Ver Serviços</a>
+                    <a href="contato.html" class="btn btn-outline">Fale Comigo</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><strong>+200</strong><span>Clientes</span></div>
+                    <div class="stat"><strong>5★</strong><span>Avaliação</span></div>
+                    <div class="stat"><strong>+8</strong><span>Anos Exp.</span></div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-bar">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre class="code-body"><code><span class="c-green">const</span> <span class="c-red">tecnico</span> = {
+  nome: <span class="c-green">"David Willian"</span>,
+  area: <span class="c-green">"TI / Hardware"</span>,
+  skills: [<span class="c-green">"Redes"</span>, <span class="c-green">"Suporte"</span>],
+  disponivel: <span class="c-red">true</span>
+};</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre <span class="highlight-green">Mim</span></h2>
+            <p class="section-subtitle">Conheça um pouco do meu trabalho e paixão pela tecnologia</p>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🖥️</div>
+                    <h3>Manutenção</h3>
+                    <p>Reparo e otimização de computadores, notebooks e periféricos com garantia de qualidade.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌐</div>
+                    <h3>Redes</h3>
+                    <p>Configuração de redes, roteadores, switches e cabeamento estruturado.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Segurança</h3>
+                    <p>Backup, antivírus e proteção de dados para residências e empresas.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Suporte</h3>
+                    <p>Atendimento técnico remoto e presencial com agilidade e profissionalismo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CARTÃO DE VISITA DIGITAL ===== -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Meu <span class="highlight-red">Cartão</span> Digital</h2>
+            <p class="section-subtitle">Compartilhe ou salve meus contatos</p>
+
+            <div class="business-card-wrapper">
+                <div class="business-card" id="businessCard">
+                    <div class="bc-front">
+                        <div class="bc-logo">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="96" height="96" rx="22" fill="#0a0a0a" stroke="#a8e6a3" stroke-width="3"/>
+                                <text x="50" y="52" font-size="38" font-family="Arial" font-weight="900" fill="#a8e6a3" text-anchor="middle">DW</text>
+                                <line x1="20" y1="68" x2="80" y2="68" stroke="#ff4d4d" stroke-width="2"/>
+                                <circle cx="50" cy="82" r="3" fill="#a8e6a3"/>
+                            </svg>
+                        </div>
+                        <h3>David Willian</h3>
+                        <p class="bc-role">Técnico de Informática</p>
+                        <span class="bc-line"></span>
+                        <p class="bc-contact">📞 (11) 99999-9999</p>
+                        <p class="bc-contact">✉️ david@ti.com</p>
+                        <p class="bc-contact">📍 São Paulo - SP</p>
+                    </div>
+                </div>
+
+                <div class="bc-actions">
+                    <button class="btn btn-primary" id="downloadCard">⬇ Baixar Cartão</button>
+                    <button class="btn btn-outline" id="shareCard">📤 Compartilhar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+        <div class="container">
+            <h2>Precisa de um técnico de confiança?</h2>
+            <p>Entre em contato agora mesmo e resolva seus problemas de TI!</p>
+            <a href="contato.html" class="btn btn-primary">Solicitar Orçamento</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>David Willian</h4>
+                <p>Técnico de Informática especializado em soluções completas para seu computador e rede.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="carreira.html">Carreira</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p>📞 (11) 99999-9999</p>
+                <p>✉️ david@ti.com</p>
+                <p>📍 São Paulo - SP</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 David Willian. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
